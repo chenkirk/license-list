@@ -9,5 +9,5 @@ Gem::Specification.new do |s|
   s.homepage    = 'http://rubygems.org/gems/license-list'
   s.license     = 'MIT'
 
-  s.add_dependency "rails", "~> 4.1"
+  s.add_dependency "rails", ">= 3.2"
 end
