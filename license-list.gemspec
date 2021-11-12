@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'license-list'
-  s.version     = '1.0.1'
+  s.version     = '2.0.0'
   s.summary     = "Rake tasks to list gems and their licenses. It also supports exporting to csv format."
   s.description = "Rake tasks to list gems and their licenses. It also supports exporting to csv format."
   s.authors     = ["Kirk Chen"]
