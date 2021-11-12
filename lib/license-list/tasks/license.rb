@@ -25,7 +25,7 @@ module LicenseList
       def list_licenses(output)
         Gem.loaded_specs.each do |key, spec|
           spec.licenses.each do |license|
-            output.write("\"#{spec.name.gsub('"', '""')}\",\"#{license.gsub('"', '""')}\"\n")
+            output.write("\"#{spec.name.gsub('"', '""')}\",\"#{license.gsub('"', '""')}\",\"#{spec.version.to_s}\"\n")
           end
         end
       end
